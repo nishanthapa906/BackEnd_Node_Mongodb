@@ -4,7 +4,8 @@ import mongoose from "mongoose";
 
 const productSchema = new mongoose.Schema({  //structure create
     name: String, 
-    price: Number
+    price: Number,
+    image: String
 
 })
 
